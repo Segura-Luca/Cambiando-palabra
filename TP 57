@@ -1,0 +1,26 @@
+#include <iostream>
+
+using namespace std;
+string CambiarPalabra(string palabra,int posicion);
+int main()
+{ string palabra;
+  int posicion;
+    cout<<"ingrese una palabra "<<endl;
+    cout<<"ingrese una posicion"<<endl;
+    cin>>palabra;
+    cin>>posicion;
+cout<<CambiarPalabra(palabra,posicion)<<endl;
+    return 0;
+}
+string CambiarPalabra(string palabra,int posicion){
+   
+        palabra[posicion]='X';
+            
+        
+    
+    
+        
+   return palabra; 
+    
+    
+}
